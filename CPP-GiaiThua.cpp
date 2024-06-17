@@ -14,9 +14,28 @@ int main()
 	   gt *= i;
    }
    cout << "giai thua" << so << "!=" << gt;
+   cout << "\nSU DUNG WHILE\n";
+   gt = 1;
+   int j = 1;
+   while (j<=so)
+   {
+	   gt *= j;
+	   j++;
+   }
+   cout << "giai thua" << so << "!=" << gt;
+   cout << "\nSU DUNG DO WHILE\n";
+   gt = 1;
+   int k = 1;
+   do 
+   {
+	   gt *= k;
+	   k++;
+   } while (k <= so);
+   cout << "giai thua" << so << "!=" << gt;
    return 0;
 
 }
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
